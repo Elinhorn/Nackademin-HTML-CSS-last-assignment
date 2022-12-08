@@ -1,0 +1,77 @@
+<!--THIS IS THE CREATE YOUR OWN EVENT PAGE-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            'IKE <i> - your travel-buddy</i>
+        </h1>
+    </header>
+    <main>
+        <div class="wall-event">
+            <nav class="brick1">
+                <a class="link" href="index.html">Hem</a><br>
+                <a class="link" href="event-list.html">Alla resor</a> <br> <!--Denna ska länka till event-list sidan-->
+                <a class="link" href="create-event.html">Skapa resa</a> <br>
+                <a class="link" href="about.html">Om oss</a>
+            </nav>
+            <div class="create-form">
+                <h3>Skapa din drömresa</h3>
+                <p>Här kan du skapa din egen drömresa eller skicka in önskemål som du tycker vi ska skapa. <br> </p>
+                <p class="instruction"><strong>Skriv in:</strong> <br> 
+                </p>
+                <form action="/action_page.php">
+                    
+                    <label for="fname">Namn på resan:</label> <br>
+                    <input type="text" id="fname" name="firstname" placeholder="Namn..."><br>
+                    <label for="start">När bästa tiden är att åka:</label>
+
+                    <input type="date" id="start" name="trip-start"
+                        value="yyyy-mm-dd"
+                        min="2023-01-01" max="2025-12-31"><br>
+                    
+                    <form>
+                        <label for="fname">Kort om vilka aktiviteter som finns:</label> <br>
+                        <textarea>Aktiviteter...</textarea>
+                    </form>
+                    <form>
+                        <label for="fname">Önskemål om aktiviteter du vill att vi ska anordna:</label> <br>
+                        <textarea>Önskemål...</textarea> <br>
+
+                    <form action="/action_page.php">
+                        <label for="fname">Ladda upp några bilder med insperation:</label> <br>
+                        <input type="file" id="myFile" name="filename"><br>
+                        <input type="file" id="myFile" name="filename"><br>
+                        <input type="file" id="myFile" name="filename"><br>
+                        <input type="file" id="myFile" name="filename">
+                    </form>
+                    </form>
+                    <form class="category">Och välj vilken kategori denna resa passar in på: <br>
+                        <select>
+                        <option value="choose">Välj...</option>
+                        <option value="cg1">Nöje</option>
+                        <option value="cg2">Kultur</option>
+                        <option value="cg3">Äventyr</option>
+                        <option value="cg3">tropiskt</option>
+                        <option value="cg3">stad</option>
+                        <option value="cg3">safari</option>
+                        <option value="cg3">sport</option>
+                        </select>
+                    </form>
+
+
+
+                    <input type="submit" value="Submit">
+
+            </div>
+        </div>
+    </main>    
+</body>
+</html>
