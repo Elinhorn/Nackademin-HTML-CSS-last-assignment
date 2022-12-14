@@ -10,3 +10,5 @@ My web page is a travel/experience agency where you can book experience that sui
 
 
 Link to live page: https://elinhorn.github.io/Nackademin-HTML-CSS-last-assignment/
+
+PS. This page is in Swedish
